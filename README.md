@@ -36,6 +36,8 @@ Antes de fazer uso da biblioteca é importante que o desenvolvedor realize algun
 Para realizar transações utilizando a biblioteca é necessária uma conta PagSeguro. Caso não tenha uma Acesse: www.pagseguro.com.br.
 Com a conta PagSeguro criada é necessário ter o Token da conta que será utilizada na configuração como vendedor na Library Checkout in App.
 
+Observação: Por favor, enviar e-mail para: checkoutinapp@uol.com.br , informando seu e-mail vendedor para que possamos liberar a funcionalidade para seu usuário.
+
 OBTENDO TOKEN DA CONTA PAGSEGURO PARA INTEGRAÇÃO COM API's
 Na pagina do ibanking do PagSeguro em sua conta:
 
