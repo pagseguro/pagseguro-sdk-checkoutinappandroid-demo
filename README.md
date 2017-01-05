@@ -1,4 +1,4 @@
-![ps5.png](https://bitbucket.org/repo/4naLKz/images/1051242651-ps5.png)
+![ps5.png](https://camo.githubusercontent.com/5040f0911b1f9da67e4eb5dd0b80ab6126d9b7d8/68747470733a2f2f6269746275636b65742e6f72672f7265706f2f346e614c4b7a2f696d616765732f313035313234323635312d7073352e706e67)
 
 # Guia de Integração #
 * **
@@ -91,11 +91,7 @@ repositories {
         }
 
         maven {
-            credentials {
-                username '<BITBUCKET EMAIL>'
-                password '<BITBUCKET PASSWORD>'
-            }
-            url "https://bitbucket.org/uolinc/checkout-in-app-android/raw/mvn-repo/repository/"
+            url "https://github.com/pagseguro/android-checkout-in-app/raw/master/repositorio"
         }
 }
 
