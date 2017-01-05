@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>br.com.uol.pslibs</groupId>
+  <artifactId>ocr-engine</artifactId>
+  <version>0.0.2</version>
+  <versioning>
+    <versions>
+      <version>0.0.2</version>
+    </versions>
+    <lastUpdated>20161101114037</lastUpdated>
+  </versioning>
+</metadata>
