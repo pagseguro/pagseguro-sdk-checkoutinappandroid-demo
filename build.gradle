@@ -19,7 +19,7 @@ allprojects {
 
         maven {
             }
-            url "https://github.com/pagseguro/android-checkout-in-app/repositorio/"
+            url "https://github.com/pagseguro/android-checkout-in-app/tree/teste/repositorio/"
         }
     }
 }
