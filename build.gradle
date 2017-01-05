@@ -18,9 +18,6 @@ allprojects {
         }
 
         maven {
-            credentials {
-                username '<BITBUCKET EMAIL>'
-                password '<BITBUCKET PASSWORD>'
             }
             url "https://github.com/pagseguro/android-checkout-in-app/repositorio/"
         }
