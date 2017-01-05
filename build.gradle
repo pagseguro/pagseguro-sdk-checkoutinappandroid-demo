@@ -22,7 +22,7 @@ allprojects {
                 username '<BITBUCKET EMAIL>'
                 password '<BITBUCKET PASSWORD>'
             }
-            url "https://bitbucket.org/uolinc/checkout-in-app-android/raw/mvn-repo/repository/"
+            url "https://github.com/pagseguro/android-checkout-in-app/repositorio/"
         }
     }
 }
