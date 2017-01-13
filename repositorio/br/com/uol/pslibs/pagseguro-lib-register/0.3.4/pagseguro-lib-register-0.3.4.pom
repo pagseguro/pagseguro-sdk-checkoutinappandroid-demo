@@ -10,17 +10,16 @@
   <description>Biblioteca Android para realizar cadastro de usuÃ¡rios</description>
   <dependencies>
     <dependency>
-      <groupId>com.afollestad.material-dialogs</groupId>
-      <artifactId>core</artifactId>
-      <version>0.8.5.3</version>
-      <type>aar</type>
+      <groupId>br.com.uol.pslibs</groupId>
+      <artifactId>pagseguro-ui</artifactId>
+      <version>0.0.4</version>
       <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>appcompat</artifactId>
-          <groupId>com.android.support</groupId>
-        </exclusion>
-      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>br.com.uol.pslibs</groupId>
+      <artifactId>pscard</artifactId>
+      <version>0.0.3</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>joda-time</groupId>
@@ -29,9 +28,9 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>br.com.uol.pslibs</groupId>
-      <artifactId>pagseguro-ui</artifactId>
-      <version>0.0.3</version>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>1.9.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -47,15 +46,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>br.com.uol.pslibs</groupId>
-      <artifactId>pscard</artifactId>
-      <version>0.0.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.retrofit</groupId>
-      <artifactId>retrofit</artifactId>
-      <version>1.9.0</version>
+      <groupId>com.afollestad.material-dialogs</groupId>
+      <artifactId>core</artifactId>
+      <version>0.9.2.3</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>

@@ -10,33 +10,21 @@
   <description>Biblioteca Android para scan de cartÃµes</description>
   <dependencies>
     <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>br.com.uol.pslibs</groupId>
       <artifactId>ocr-engine</artifactId>
-      <version>0.0.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>br.com.uol.pslibs</groupId>
-      <artifactId>essentials</artifactId>
-      <version>0.0.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.okhttp</groupId>
-      <artifactId>okhttp</artifactId>
-      <version>2.2.0</version>
+      <version>0.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>br.com.uol.pslibs</groupId>
       <artifactId>pagseguro-ui</artifactId>
-      <version>0.0.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.support</groupId>
-      <artifactId>support-v4</artifactId>
-      <version>23.4.0</version>
+      <version>0.0.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -46,9 +34,21 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>br.com.uol.pslibs</groupId>
+      <artifactId>essentials</artifactId>
+      <version>0.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>com.android.support</groupId>
-      <artifactId>appcompat-v7</artifactId>
-      <version>23.4.0</version>
+      <artifactId>support-v4</artifactId>
+      <version>25.0.0</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
