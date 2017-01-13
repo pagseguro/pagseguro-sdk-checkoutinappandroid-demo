@@ -20,6 +20,8 @@ allprojects {
         maven {
             url "https://github.com/pagseguro/android-checkout-in-app/raw/master/repositorio"
         }
+
+        jcenter()
     }
 }
 
