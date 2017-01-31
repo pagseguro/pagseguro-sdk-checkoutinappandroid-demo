@@ -18,7 +18,7 @@
     <dependency>
       <groupId>br.com.uol.pslibs</groupId>
       <artifactId>ocr-engine</artifactId>
-      <version>0.0.3</version>
+      <version>0.0.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

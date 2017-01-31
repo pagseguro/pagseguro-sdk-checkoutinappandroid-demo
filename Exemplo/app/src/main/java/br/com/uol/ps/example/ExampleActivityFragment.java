@@ -42,7 +42,6 @@ public class ExampleActivityFragment extends Fragment {
      * Seller Email
      */
     private static final String SELLER_EMAIL = "<insira aqui seu e-mail pagseguro>";
-
     /**
      * Seller Token
      * Este token deve ser obtido no ibanking do PagSeguro
@@ -50,7 +49,6 @@ public class ExampleActivityFragment extends Fragment {
      * -> Mais informações consulte a documentação.
      */
     private static final String SELLER_TOKEN = "<insira aqui token de sua conta pagseguro>";
-
 
     private Button btnPay;
     private Button btnGetMainCard;
@@ -144,9 +142,11 @@ public class ExampleActivityFragment extends Fragment {
         public void onProcessing(Context context) {
             //Listener para UI Thread
             //Ex. Dialogs, Loading, animações, etc;
-            progressDialog = new ProgressDialog(context);
-            progressDialog.setMessage("Processando...");
-            progressDialog.show();
+            if (progressDialog == null || !progressDialog.isShowing()) {
+                progressDialog = new ProgressDialog(context);
+                progressDialog.setMessage("Processando...");
+                progressDialog.show();
+            }
         }
     };
 
