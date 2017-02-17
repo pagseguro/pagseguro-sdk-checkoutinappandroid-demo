@@ -38,7 +38,7 @@ Antes de fazer uso da biblioteca é importante que o desenvolvedor realize algun
 
 * **
 
-**Para utilizar o Checkout Transparente**
+**Para utilizar o Checkout in App**
 
 O Checkout in App está operando em fase de piloto. Para fazer parte deste piloto você precisa seguir alguns passos:
 
