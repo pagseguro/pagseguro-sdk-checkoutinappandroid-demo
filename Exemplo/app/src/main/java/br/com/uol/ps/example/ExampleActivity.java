@@ -34,7 +34,7 @@ public class ExampleActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.fragment_container, new ExampleActivityFragment())
+                    .add(R.id.fragment_container, new MainFragment())
                     .commit();
         }
     }
