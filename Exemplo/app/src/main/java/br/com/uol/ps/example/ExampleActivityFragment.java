@@ -3,6 +3,7 @@ package br.com.uol.ps.example;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -78,7 +79,17 @@ public class ExampleActivityFragment extends Fragment {
         //Cria instância da Library Checkout in App PagSeguro UOL
         configLib();
 
+        ((ExampleActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        ((ExampleActivity)getActivity()).getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getActivity().setTitle(R.string.app_name);
+
         return view;
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
     }
 
     /**
