@@ -118,7 +118,7 @@ repositories {
 
 dependencies {
     ...
-    compile 'br.com.uol.pslibs:checkout-in-app:0.0.2'
+    compile 'br.com.uol.pslibs:checkout-in-app:0.0.3'
     compile 'com.afollestad.material-dialogs:core:0.9.2.3'
     ...
 }
