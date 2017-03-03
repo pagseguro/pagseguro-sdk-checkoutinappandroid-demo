@@ -8,6 +8,7 @@
    **Histórico de Versões**                                                                                      
    - 0.0.1 : **Versão inicial**  - 13/07/2016
    - 0.0.2 : **Atualização do SDK**  - 13/01/2017
+   - 0.0.3 : **Melhoria na autenticação** - 03/03/2017
  <hr>
 
 **Copyright**
