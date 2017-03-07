@@ -260,16 +260,18 @@ Agora uma demonstração de utilização do PSCheckout.PSCheckoutListener:
      * PSCheckout listerner
      * Este listener será o ponto focal para validar os resultados de sua transação;
      */
-    PSCheckout.PSCheckoutListener psCheckoutListener = new PSCheckout.PSCheckoutListener() {
+     PSCheckout.PSCheckoutListener psCheckoutListener = new PSCheckout.PSCheckoutListener() {
         @Override
         public void onSuccess(PagSeguroResponse pagSeguroResponse, Context context) {
-            //Sucesso na transação           
+            //Sucesso na transação
+            Log.v(TAG, "Codigo da Transação: "pagSeguroResponse.getTransactionId());
         }
 
          @Override
          public void onFailure(PagSeguroResponse pagSeguroResponse, Context context) {
             //Falha na transação
             Log.v(TAG, "Falha na transação, " + " Erro: " + pagSeguroResponse.getErrorCode() + ", " + pagSeguroResponse.getMessage());        
+            Log.v(TAG, "Codigo da Transação: "pagSeguroResponse.getTransactionId());
          }
 
         @Override
@@ -277,6 +279,7 @@ Agora uma demonstração de utilização do PSCheckout.PSCheckoutListener:
             //Listener para UI Thread
             //Ex. Dialogs, Loading, animações, etc;
         }
+     }
 
 ```
 
