@@ -50,6 +50,10 @@ Se você for selecionado para o piloto, nossa equipe entrará em contato com voc
 
 A equipe do PagSeguro dará todo o suporte para sua integração do Checkout in App com a sua aplicação.
 
+Observação: O PagSeguro também dispõe da solução de Checkout in App Transparente, que não exige que o cliente realize login ou crie uma conta no PagSeguro.
+
+Conheça mais sobre a versão Transparente, acessando a documentação do [iOS] (https://github.com/pagseguro/ios-checkout-transparent-in-app) e [Android] (https://github.com/pagseguro/android-checkout-transparent-in-app)
+
 * **
 
 **Obtendo Token da conta PagSeguro**
