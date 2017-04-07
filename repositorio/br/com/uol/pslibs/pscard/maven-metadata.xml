@@ -3,10 +3,11 @@
   <groupId>br.com.uol.pslibs</groupId>
   <artifactId>pscard</artifactId>
   <versioning>
-    <release>0.0.3</release>
+    <release>0.0.4</release>
     <versions>
       <version>0.0.3</version>
+      <version>0.0.4</version>
     </versions>
-    <lastUpdated>20170223144920</lastUpdated>
+    <lastUpdated>20170331171424</lastUpdated>
   </versioning>
 </metadata>
